@@ -1,7 +1,8 @@
 <?php 
 $id = $_GET['product'];
 try{
-    $mysql = new mysqli('localhost', 'root', 'root', 'se');
+	$mysql = new mysqli('remotemysql.com', 'KzxmCsv99W', 'Kz0rgSvacP', 'KzxmCsv99W');
+
     $result = $mysql -> query("SELECT * FROM `books` WHERE `producd_key`='$id'");
     $cresult = $mysql -> query("SELECT * FROM `books`");
 
@@ -557,7 +558,7 @@ $rows = $result->num_rows;
 					</div>
                     <?php
                                         try{
-                                            $mysql = new mysqli('localhost', 'root', 'root', 'se');
+											$mysql = new mysqli('remotemysql.com', 'KzxmCsv99W', 'Kz0rgSvacP', 'KzxmCsv99W');
                                             $cresult = $mysql -> query("SELECT * FROM `books` LIMIT 4");
                                         }
                                         catch(Exception $e){

@@ -81,8 +81,9 @@
                                    <div class="col-md-6">
                                        <div class="header-search">
                                        <?php
-                                            $mysql = new mysqli('localhost', 'root', 'root', 'se');
-                                            $csql="SELECT `category`, COUNT(DISTINCT(`product_name`)) AS 'n' FROM `books` GROUP by `category`";
+                                            $mysql = new mysqli('remotemysql.com', 'KzxmCsv99W', 'Kz0rgSvacP', 'KzxmCsv99W');
+                                           
+										   $csql="SELECT `category`, COUNT(DISTINCT(`product_name`)) AS 'n' FROM `books` GROUP by `category`";
 											$cresult = $mysql->query($csql);
 
                                             if(isset($_POST['search'])){
