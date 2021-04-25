@@ -30,6 +30,7 @@
             html,body {
                 scroll-behavior: smooth !important;
             }
+			
         </style>
     </head>
 

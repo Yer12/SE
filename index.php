@@ -24,7 +24,7 @@
                 scroll-behavior: smooth !important;
             }
 			.tap{
-				color: #D10425;
+				color: #D10425 !important;
 			}
         </style>
     </head>
@@ -65,7 +65,7 @@
                                 <div class="header-logo">
                                     <a href="index.php" class="logo">
                                         <!-- <img src="./img/logo.png" alt=""> -->
-                                       <h1 style="color: white; margin-top:10px;">KI<span class="tap">TAP</span></h1>
+                                       <h1 style="color: white; margin-top:10px; letter-spacing: 3px;">KI<span class="tap">TAP</span></h1>
                                     </a>
                                 </div>
                             </div>

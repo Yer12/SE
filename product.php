@@ -46,6 +46,9 @@ $rows = $result->num_rows;
             html,body {
                 scroll-behavior: smooth !important;
             }
+			.tap{
+				color: #D10425 !important;
+			}
         </style>
     </head>
 
@@ -84,8 +87,7 @@ $rows = $result->num_rows;
                                    <div class="col-md-3">
                                        <div class="header-logo">
                                            <a href="index.php" class="logo">
-                                               <!-- <img src="./img/logo.png" alt=""> -->
-											   <h1 style="color: white; margin-top:10px;">Periodicals</h1>
+											   <h1 style="color: white; margin-top:10px; letter-spacing: 3px;">KI<span class="tap">TAP</span></h1>
 											</a>
                                        </div>
                                    </div>

@@ -32,6 +32,9 @@
                 width: 60%;
                 margin: 0 auto;
             }
+            .tap{
+				color: #D10425 !important;
+			}
         </style>
     </head>
 
