@@ -223,15 +223,15 @@ $rows = $result->num_rows;
                                         </div>
 
                                         <div class="product-preview">
-                                            <img src="../SE/images/annakarenina2.jfif" alt="">
+                                            <img src="../images/annakarenina2.jfif" alt="">
                                         </div>
 
                                         <div class="product-preview">
-                                            <img src="../SE/images/annakarenina3.jpg" alt="">
+                                            <img src="../images/annakarenina3.jpg" alt="">
                                         </div>
 
                                         <div class="product-preview">
-                                            <img src="../SE/images/annakarenina4.jfif" alt="">
+                                            <img src="../images/annakarenina4.jfif" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -245,16 +245,16 @@ $rows = $result->num_rows;
                                         </div>
 
                                         <div class="product-preview">
-                                            <img src="../SE/images/annakarenina2.jfif" alt="">
+                                            <img src="../images/annakarenina2.jfif" alt="">
                                         </div>
 
                                         <div class="product-preview">
 
-                                            <img src="../SE/images/annakarenina3.jpg" alt="">
+                                            <img src="../images/annakarenina3.jpg" alt="">
                                         </div>
 
                                         <div class="product-preview">
-                                            <img src="../SE/images/annakarenina4.jfif" alt="">
+                                            <img src="../images/annakarenina4.jfif" alt="">
                                         </div>
                                     </div>
                                 </div>
