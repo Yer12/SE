@@ -128,29 +128,29 @@ $rows = $result->num_rows;
                                                    <div class="cart-list">
                                                        <div class="product-widget">
                                                            <div class="product-img">
-                                                               <img src="./img/product01.png" alt="">
+                                                               <img src="../images/annakarenina2.jfif" alt="">
                                                            </div>
                                                            <div class="product-body">
-                                                               <h3 class="product-name"><a href="#">product name goes here</a></h3>
-                                                               <h4 class="product-price"><span class="qty">1x</span>$980.00</h4>
+                                                               <h3 class="product-name"><a href="#">Anna Karenina</a></h3>
+                                                               <h4 class="product-price"><span class="qty">1x</span>9800.00 тг</h4>
                                                            </div>
                                                            <button class="delete"><i class="fa fa-close"></i></button>
                                                        </div>
 
                                                        <div class="product-widget">
                                                            <div class="product-img">
-                                                               <img src="./img/product02.png" alt="">
+                                                               <img src="../images/annakarenina3.jfif" alt="">
                                                            </div>
                                                            <div class="product-body">
-                                                               <h3 class="product-name"><a href="#">product name goes here</a></h3>
-                                                               <h4 class="product-price"><span class="qty">3x</span>$980.00</h4>
+                                                               <h3 class="product-name"><a href="#">Anna Karenina</a></h3>
+                                                               <h4 class="product-price"><span class="qty">3x</span>5580.00 тг</h4>
                                                            </div>
                                                            <button class="delete"><i class="fa fa-close"></i></button>
                                                        </div>
                                                    </div>
                                                    <div class="cart-summary">
                                                        <small>3 Item(s) selected</small>
-                                                       <h5>SUBTOTAL: $2940.00</h5>
+                                                       <h5>SUBTOTAL: 15380 тг</h5>
                                                    </div>
                                                    <div class="cart-btns">
                                                        <a href="#">View Cart</a>
