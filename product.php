@@ -139,7 +139,7 @@ $rows = $result->num_rows;
 
                                                        <div class="product-widget">
                                                            <div class="product-img">
-                                                               <img src="../images/annakarenina3.jfif" alt="">
+                                                               <img src="../images/annakarenina4.jfif" alt="">
                                                            </div>
                                                            <div class="product-body">
                                                                <h3 class="product-name"><a href="#">Anna Karenina</a></h3>
