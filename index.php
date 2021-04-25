@@ -106,7 +106,10 @@
 									<div class="products-slick" data-nav="#slick-nav-1">
                                     <?php
                                         try{
-                                            $mysql = new mysqli('localhost', 'root', 'root', 'se');
+                                            // $mysql = new mysqli('localhost', 'root', 'root', 'se');
+                                            // $result = $mysql -> query("SELECT * FROM `books` LIMIT 10");
+
+											$mysql = new mysqli('remotemysql.com', 'KzxmCsv99W', 'Kz0rgSvacP', 'KzxmCsv99W');
                                             $result = $mysql -> query("SELECT * FROM `books` LIMIT 10");
                                         }
                                         catch(Exception $e){
@@ -247,7 +250,7 @@
 							<div>
 								 <?php
                                         try{
-                                            $mysql = new mysqli('localhost', 'root', 'root', 'se');
+											$mysql = new mysqli('remotemysql.com', 'KzxmCsv99W', 'Kz0rgSvacP', 'KzxmCsv99W');
                                             $result = $mysql -> query("SELECT * FROM `books` WHERE `producd_key` BETWEEN 1 AND 5");
                                         }
                                         catch(Exception $e){
@@ -286,7 +289,7 @@
 							<div>
 								<?php
                                         try{
-                                            $mysql = new mysqli('localhost', 'root', 'root', 'se');
+											$mysql = new mysqli('remotemysql.com', 'KzxmCsv99W', 'Kz0rgSvacP', 'KzxmCsv99W');
                                             $result = $mysql -> query("SELECT * FROM `books` WHERE `producd_key` BETWEEN 6 AND 11");
                                         }
                                         catch(Exception $e){
@@ -335,7 +338,7 @@
 							<div>
 						<?php
                                         try{
-                                            $mysql = new mysqli('localhost', 'root', 'root', 'se');
+											$mysql = new mysqli('remotemysql.com', 'KzxmCsv99W', 'Kz0rgSvacP', 'KzxmCsv99W');
                                             $result = $mysql -> query("SELECT * FROM `books` WHERE `producd_key` BETWEEN 12 AND 17");
                                         }
                                         catch(Exception $e){
@@ -373,7 +376,7 @@
 							<div>
 							<?php
                                         try{
-                                            $mysql = new mysqli('localhost', 'root', 'root', 'se');
+                                            $mysql = new mysqli('remotemysql.com', 'KzxmCsv99W', 'Kz0rgSvacP', 'KzxmCsv99W');
                                             $result = $mysql -> query("SELECT * FROM `books` WHERE `producd_key` BETWEEN 15 AND 20");
                                         }
                                         catch(Exception $e){
@@ -424,7 +427,7 @@
 							<div>
 							<?php
                                 try{
-                                    $mysql = new mysqli('localhost', 'root', 'root', 'se');
+                                   $mysql = new mysqli('remotemysql.com', 'KzxmCsv99W', 'Kz0rgSvacP', 'KzxmCsv99W');
                                     $result = $mysql -> query("SELECT * FROM `books` WHERE `producd_key` BETWEEN 1 AND 5");
                                 }
                                 catch(Exception $e){
@@ -462,7 +465,7 @@
 							<div>
 							<?php
                                         try{
-                                            $mysql = new mysqli('localhost', 'root', 'root', 'se');
+                                            $mysql = new mysqli('remotemysql.com', 'KzxmCsv99W', 'Kz0rgSvacP', 'KzxmCsv99W');
                                             $result = $mysql -> query("SELECT * FROM `books` WHERE `producd_key` BETWEEN 6 AND 11");
                                         }
                                         catch(Exception $e){
